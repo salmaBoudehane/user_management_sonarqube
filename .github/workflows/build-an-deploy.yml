@@ -59,7 +59,7 @@ jobs:
         run: |
           docker build -t carikk/quality-gate:latest .
 
-        # Push Docker image to DockerHub or other container registry
+        # Push Docker image to DockerHub
       - name: Log in to DockerHub
         shell: powershell
         run: |
