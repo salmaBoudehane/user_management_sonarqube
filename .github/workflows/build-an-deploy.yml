@@ -76,7 +76,7 @@ jobs:
           kubectl config use-context docker-desktop  # Set context to docker-desktop
           kubectl config set-context --current --namespace=ensakh
 
-      # Verify Kubernetes context
+      # Verify Kubernetes
       - name: Verify Kubernetes context
         run: |
           kubectl config current-context
